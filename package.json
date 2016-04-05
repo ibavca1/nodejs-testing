@@ -1,0 +1,23 @@
+{
+  "name": "koa-jake-upload-etc",
+  "version": "0.0.1",
+  "description": "Tests my dummy",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec -u bdd test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "bavc",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "koa": "^1.2.0",
+    "koa-route": "^2.4.2",
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.11",
+    "node-xlsx": "^0.6.0"
+  }
+}
